@@ -1,7 +1,7 @@
 # Project- Hospital Readmission Analysis
 The goal of this project is to build a predictive model to estimate the likelihood of a hospital readmission based on patient data. By identifying factors that contribute to readmissions, hospitals can optimize care and reduce costs associated with repeated visits.
 
-1. Project Overview:-
+- 1. Project Overview:-
 
 Objective: The goal of this project is to build a predictive model to estimate the likelihood of a hospital readmission within 30 days based on patient data. By identifying factors that contribute to readmissions, hospitals can optimize care and reduce costs associated with repeated visits.
 
@@ -11,7 +11,7 @@ Tools and Technologies:-
 - Libraries: pandas, numpy, plotly, seaborn, matplotlib, scikit-learn, imbalanced-learn (SMOTE for handling imbalanced data)
 - IDE: Jupyter Notebook
 
-2. Data Description:- 
+- 2. Data Description:- 
 Dataset Source: [https://raw.githubusercontent.com/dpgitaccount/Data-Sets/main/hospital_readmissions.csv]
 
 Data Summary:-
@@ -25,7 +25,7 @@ Target Variable:-
 Readmitted:-
 Whether a patient was readmitted within 30 days (binary: 1 = Yes, 0 = No)
 
-3. Data Preprocessing:-
+- 3. Data Preprocessing:-
    
 Handling Missing Values:-
 
@@ -43,8 +43,8 @@ Splitting Data:
 - Split the dataset into training and testing sets (80-20 split) to evaluate the model's performance.
 
 
-4. Exploratory Data Analysis (EDA):-
-5. 
+- 4. Exploratory Data Analysis (EDA):-
+     
 Performed EDA to understand the key patterns in the data. Key steps included:
 
 Distribution Analysis:-
@@ -58,7 +58,8 @@ Plotly and Matplotlib were used for interactive and static visualizations.
 Visualized the relationships between demographics, prior admissions, and readmission rates.
 
 
-5. Model Building and Training:-
+- 5. Model Building and Training:-
+  
 Built and evaluated multiple classification models to predict readmissions:
 
 Logistic Regression:-
@@ -72,7 +73,7 @@ Accuracy, Precision, Recall, F1-Score, and ROC-AUC Score.
 Final Model: Chose the model that provided the best combination of Recall and AUC to optimize for both sensitivity and overall prediction quality.
 
 
-6. Model Evaluation:-
+- 6. Model Evaluation:-
 
 1.Confusion Matrix:
 Evaluated the model's true positives, false positives, true negatives, and false negatives.
@@ -87,7 +88,7 @@ Calculated the ROC-AUC score to gauge the model's ability to distinguish between
 Visualized feature importance from the Random Forest model to identify the most impactful factors in predicting readmission.
 
 
-7. Results and Insights:-
+- 7. Results and Insights:-
    
 Key Findings:-
 
