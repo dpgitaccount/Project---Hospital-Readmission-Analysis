@@ -11,7 +11,8 @@ Tools and Technologies:-
 - Libraries: pandas, numpy, plotly, seaborn, matplotlib, scikit-learn, imbalanced-learn (SMOTE for handling imbalanced data)
 - IDE: Jupyter Notebook
 
-- 2. Data Description:- 
+- 2. Data Description:-
+ 
 Dataset Source: [https://raw.githubusercontent.com/dpgitaccount/Data-Sets/main/hospital_readmissions.csv]
 
 Data Summary:-
@@ -26,6 +27,7 @@ Readmitted:-
 Whether a patient was readmitted within 30 days (binary: 1 = Yes, 0 = No)
 
 - 3. Data Preprocessing:-
+
    
 Handling Missing Values:-
 
@@ -45,6 +47,7 @@ Splitting Data:
 
 - 4. Exploratory Data Analysis (EDA):-
      
+     
 Performed EDA to understand the key patterns in the data. Key steps included:
 
 Distribution Analysis:-
@@ -59,6 +62,7 @@ Visualized the relationships between demographics, prior admissions, and readmis
 
 
 - 5. Model Building and Training:-
+     
   
 Built and evaluated multiple classification models to predict readmissions:
 
@@ -74,6 +78,7 @@ Final Model: Chose the model that provided the best combination of Recall and AU
 
 
 - 6. Model Evaluation:-
+     
 
 1.Confusion Matrix:
 Evaluated the model's true positives, false positives, true negatives, and false negatives.
@@ -89,6 +94,7 @@ Visualized feature importance from the Random Forest model to identify the most 
 
 
 - 7. Results and Insights:-
+     
    
 Key Findings:-
 
