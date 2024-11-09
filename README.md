@@ -67,6 +67,7 @@ Whether a patient was readmitted within 30 days (binary: 1 = Yes, 0 = No)
 
 - Categorical features were converted to numerical values using one-hot encoding.
 - Removed irrelevant features that do not contribute to the prediction task.
+  
 
 ![image](https://github.com/user-attachments/assets/898d6eb1-5a23-4c80-b067-23f08287d264)
 
