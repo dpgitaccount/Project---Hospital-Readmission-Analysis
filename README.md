@@ -13,7 +13,7 @@ Tools and Technologies:-
 
 - 2. Data Description:-
  
-Dataset Source: [https://raw.githubusercontent.com/dpgitaccount/Data-Sets/main/hospital_readmissions.csv]
+Dataset Source: https://raw.githubusercontent.com/dpgitaccount/Data-Sets/main/hospital_readmissions.csv
 
 Data Summary:-
 
