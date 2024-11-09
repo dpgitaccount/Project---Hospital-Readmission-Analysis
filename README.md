@@ -5,7 +5,7 @@ The goal of this project is to build a predictive model to estimate the likeliho
 
 Objective: The goal of this project is to build a predictive model to estimate the likelihood of a hospital readmission within 30 days based on patient data. By identifying factors that contribute to readmissions, hospitals can optimize care and reduce costs associated with repeated visits.
 
-Tools and Technologies:-
+- Tools and Technologies:-
 
 - Programming Language: Python
 - Libraries: pandas, numpy, plotly, seaborn, matplotlib, scikit-learn, imbalanced-learn (SMOTE for handling imbalanced data)
@@ -37,6 +37,11 @@ Feature Engineering:-
 
 - Categorical features were converted to numerical values using one-hot encoding.
 - Removed irrelevant features that do not contribute to the prediction task.
+
+![image](https://github.com/user-attachments/assets/898d6eb1-5a23-4c80-b067-23f08287d264)
+
+
+  
 - Handling Imbalanced Data:
 
 - Applied SMOTE (Synthetic Minority Over-sampling Technique) to balance the classes in the target variable.
@@ -51,14 +56,28 @@ Splitting Data:
 Performed EDA to understand the key patterns in the data. Key steps included:
 
 Distribution Analysis:-
+
 Examined the distribution of each feature to understand its relationship with readmissions.
 
 Correlation Analysis:-
+
 Analyzed correlations between features to identify any redundant or strongly correlated variables.
+
+![image](https://github.com/user-attachments/assets/0617da54-29e2-420d-8907-35d53905672f)
+
 
 Data Visualization:-
 Plotly and Matplotlib were used for interactive and static visualizations.
 Visualized the relationships between demographics, prior admissions, and readmission rates.
+
+![image](https://github.com/user-attachments/assets/670e6238-bed3-4c0b-aa55-a1a23c656173)
+
+
+- Heat Map Vizualisation -
+
+
+![image](https://github.com/user-attachments/assets/42a4abc3-7054-4855-8037-b2df9620f461)
+
 
 
 - 5. Model Building and Training:-
@@ -80,23 +99,29 @@ Final Model: Chose the model that provided the best combination of Recall and AU
 - 6. Model Evaluation:-
      
 
-1.Confusion Matrix:
+1. Confusion Matrix:
 Evaluated the model's true positives, false positives, true negatives, and false negatives.
 
-2.Classification Report:-
+![image](https://github.com/user-attachments/assets/2ced655c-8dbd-47ec-a21c-77dbc9b49154)
+
+
+2. Classification Report:-
 Provided precision, recall, and F1-scores for each class to assess model performance.
 
-3.ROC-AUC Score:-
+3. ROC-AUC Score:-
 Calculated the ROC-AUC score to gauge the model's ability to distinguish between classes.
 
 4. Feature Importance:-
 Visualized feature importance from the Random Forest model to identify the most impactful factors in predicting readmission.
 
 
+![image](https://github.com/user-attachments/assets/f0833edf-780f-49a9-8c15-6e44fdc61c66)
+
+
 - 7. Results and Insights:-
      
    
-Key Findings:-
+- Key Findings:-
 
 - Factors Influencing Readmission:-
 Based on the model's feature importance, certain characteristics were found to have a stronger correlation with readmissions:
