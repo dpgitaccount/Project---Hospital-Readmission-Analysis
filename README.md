@@ -164,45 +164,45 @@ Visualized feature importance from the Random Forest model to identify the most 
    
 ▶ Key Findings:-
 
-- Factors Influencing Readmission:-
+▶ Factors Influencing Readmission:-
   
 Based on the model's feature importance, certain characteristics were found to have a stronger correlation with readmissions:
 Medical Conditions: Patients diagnosed with chronic diseases like diabetes, heart disease, or COPD (Chronic Obstructive Pulmonary Disease) were more likely to be readmitted.
 
-- Age Groups:-
+▶ Age Groups:-
   
 Elderly patients, especially those above 65, showed higher readmission rates, likely due to more complex health needs.
 
-- Previous Admissions:-
+▶ Previous Admissions:-
   
 Patients with a history of prior admissions or frequent hospital visits in the past year had a significantly higher readmission probability.
 
-- Length of Stay:-
+▶ Length of Stay:-
   
 A longer initial hospital stay often corresponded with a greater chance of readmission, possibly indicating more severe conditions.
 
-- Model Performance:-
+▶ Model Performance:-
   
 The final model chosen (e.g., Random Forest Classifier) provided the best balance between precision and recall.
 
-- AUC Score:-
+▶ AUC Score:-
   
 The model achieved an AUC (Area Under the Curve) score of approximately 0.85, which indicates good discriminatory power in distinguishing between patients likely to be readmitted and those who are not.
 
-- Recall:-
+▶ Recall:-
   
 With a recall score of 0.80, the model successfully identified 80% of actual readmissions. This high recall is important for healthcare applications where missing a potential readmission could lead to adverse patient outcomes.
 
-- Precision:-
+▶ Precision:-
   
 While precision was slightly lower (e.g., around 0.70), this trade-off was acceptable to prioritize capturing as many readmissions as possible.
 
 
-- Confusion Matrix Analysis:-
+▶ Confusion Matrix Analysis:-
   
 The model performed well in identifying true positives (correctly predicting readmissions) but had a moderate number of false positives (predicting readmission when it didn’t occur). However, reducing false negatives (missed readmissions) was prioritized.
 
-- Insights:-
+▶ Insights:-
   
 Resource Allocation: Hospitals could focus follow-up care on high-risk groups, such as elderly patients with chronic conditions.
 Early Interventions: For patients identified with a high risk of readmission, preventive measures like regular check-ups or telehealth consultations could reduce the likelihood of another hospitalization.
