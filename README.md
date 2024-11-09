@@ -12,10 +12,38 @@ Objective: The goal of this project is to build a predictive model to estimate t
 - IDE: Jupyter Notebook
 
 - 2. Data Description:-
- 
-Dataset Source: https://raw.githubusercontent.com/dpgitaccount/Data-Sets/main/hospital_readmissions.csv
 
-Data Summary:-
+- Number of Rows:-
+
+This represents the number of data entries or observations in the dataset. For example, if it’s a hospital readmissions dataset, each row might represent an individual patient's readmission record.
+
+
+- Number of Columns:-
+
+This indicates the number of features or variables available in each observation. More columns usually mean more data features, which can be valuable for in-depth analysis.
+ 
+- Dataset Source:- https://raw.githubusercontent.com/dpgitaccount/Data-Sets/main/hospital_readmissions.csv
+
+Data Summary:- In this dataset contain 25000 rows & 17 columns which are represents the hospital readmission information.
+
+
+- "age" - age bracket of the patient
+- "time_in_hospital" - days (from 1 to 14)
+- "n_procedures" - number of procedures performed during the hospital stay
+- "n_lab_procedures" - number of laboratory procedures performed during the hospital stay
+- "n_medications" - number of medications administered during the hospital stay
+- "n_outpatient" - number of outpatient visits in the year before a hospital stay
+- "n_inpatient" - number of inpatient visits in the year before the hospital stay
+- "n_emergency" - number of visits to the emergency room in the year before the hospital stay
+- "medical_specialty" - the specialty of the admitting physician
+- "diag_1" - primary diagnosis (Circulatory, Respiratory, Digestive, etc.)
+- "diag_2" - secondary diagnosis
+- "diag_3" - additional secondary diagnosis
+- "glucose_test" - whether the glucose serum came out as high (> 200), normal, or not performed
+- "A1Ctest" - whether the A1C level of the patient came out as high (> 7%), normal, or not performed
+- "change" - whether there was a change in the diabetes medication ('yes' or 'no')
+- "diabetes_med" - whether a diabetes medication was prescribed ('yes' or 'no') "readmitted" - if the patient was readmitted at the hospital ('yes' or 'no')
+
 
 Features:-
 - Demographic Information: age, gender, race, etc.
